@@ -92,7 +92,7 @@ nav a:not([href]) {
   color: #2CCCC3;
 }
 table {  
-  width: 100%;
+  width: 90%;
 }
 th, td {
   text-align:left;
