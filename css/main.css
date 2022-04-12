@@ -91,6 +91,25 @@ nav a {
 nav a:not([href]) {
   color: #2CCCC3;
 }
+table {  
+  width: 100%;
+}
+th, td {
+  padding:.25em .5em;
+  text-align:left;
+}
+th:nth-child(2), 
+td:nth-child(2) {
+  text-align:right;
+}
+td {
+  background-color:#000000; 
+  border-right: 1px #FACD3D solid; 
+}
+th {
+  background-color:#2CCCC3;
+  color:#fff;
+}
 
 #me {
   max-width: 75%;
