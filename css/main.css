@@ -92,9 +92,10 @@ nav a:not([href]) {
   color: #2CCCC3;
 }
 table {  
-  width: 90%;
+  width: 100%;
 }
 th, td {
+  padding:.25em .5em;
   text-align:left;
 }
 th:nth-child(2), 
