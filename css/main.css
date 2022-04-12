@@ -9,7 +9,7 @@
     'main'
     'footer';
   gap: 3px;
-  max-width: 1080px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -98,27 +98,15 @@ nav a:not([href]) {
   height: auto;
 }
 #logo {
-  max-width: 100px;
-  max-height: 100%;
-  height: auto;
+  max-height: 4em;
+  max-width: 100%
+  width: auto;
 }
-#cv {
-  max-width: 380px;
-  max-height: 100%;
-  height: auto;
-}
-#skills {
-  max-width: 675px;
-  max-height: 100%;
-  height: auto;
-}
-#img {
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-}
+#cv,
+#skills,
+#img,
 #index {
-  max-width: 500px;
+  max-width: 100%;
   max-height: 100%;
   height: auto;
 }
@@ -148,32 +136,9 @@ nav a:not([href]) {
     padding: 8px 10px;
   }
 
-  #me,
-  #index,
-  #cv {
-    max-width: 450px;
-    max-height: 100%;
-    height: auto;
-  }
-  #logo {
-    max-width: 60px;
-    max-height: 100%;
-    height: auto;
-  }
-  #skills {
-    max-width: 100%;
-    max-height: 500px;
-    width: auto;
-    transform: rotate(270deg);
-    margin-top: 50px;
-  }
-  #img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-  }
-  #skillsContainer {
-    height: 100%;
+  #cvImage {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -208,22 +173,15 @@ nav a:not([href]) {
   }
   #grid {
     display: grid;
-    grid-template-columns: 1fr max-content;
+    grid-template-columns: 30% 70%;
   }
-  #skills {
-    max-width: 840px;
-    max-height: 415px;
-    height: auto;
-    transform: rotate(0deg);
+  #grid aside {
+    display: flex;
+    justify-content: center;
   }
-  #skillsContainer {
-    height: auto;
-  }
-  #me,
-  #index,
-  #cv {
-    max-width: 425px;
-    max-height: 100%;
-    height: auto;
+  #images {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
   }
 }
