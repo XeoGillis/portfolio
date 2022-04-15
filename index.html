@@ -1,58 +1,425 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1.0,user-scalable=yes"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Portfolio</title>
-    <link href="css/main.css" rel="stylesheet" />
+    <meta name="description" content="" />
+    <meta name="author" content="Xeo Gillis" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Xeo</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
   </head>
 
   <body>
-    <div class="container">
-      <header id="header">
-        <picture>
-          <source srcset="assets/images/logo.jpg" />
-          <img id="logo" src="assets/images/logo.jpg" alt="Logo Xeo Gillis" />
-        </picture>
-        <aside>
-          <h1>I salute you</h1>
-        </aside>
-      </header>
-      <nav>
-        <ul>
-          <li><a>Who am I?</a></li>
-          <li><a href="over_ons.html">Curriculum Vitae</a></li>
-          <li><a href="realisaties.html">Realisations</a></li>
-          <li><a href="contact.html">Skills</a></li>
-        </ul>
-      </nav>
-      <main id="grid">
-        <div>
-          <h2 style="text-align: center">Who am I?</h2>
-          <p style="text-align: center">
-            <i>
-              They think that man is me<br />
-              Without a second glance<br />
-              The stranger they have found<br />
-              This man could be my chance <br />
-            </i>
-            <sub>Les Misérables, Who am I</sub>
-            <br />
-            <br />
-            <br />
-            <img id="me" src="assets/images/me.jpg" alt="Xeo Gillis" />
-          </p>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Xeo Gillis</h4>
+              <span>Student Applied Informatics</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100010450607601" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/xeo-gillis-b729b8222/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/XeoGillis" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>&copy; 2022 | Design Xeo Gillis</p>
+            </div>
+          </div>
         </div>
-        <aside>
-          <img id="index" alt="wordcloud" src="assets/images/wordcloud.jpg" />
-        </aside>
-      </main>
-      <footer>
-        <p>&copy; Portfolio - Xeo Gillis</p>
-      </footer>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >They think that man is me <br />
+              Without a second glance <br />
+              The stranger they have found <br />
+              This man could be my chance <br />
+              <sub>Les Misérables, Who am I</sub></span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Characteristics</h4>
+                  <p>
+                      Extraverted - Anticipating <br />
+                      Judging - Perfectionist<br />
+                      Assertiveness - Vision<br />
+                      Social - Sensing<br />
+                      Analyzing - Tactical<br />
+                      Independent - Open-minded<br />
+                      Presenting - Critical<br />
+                      Rational - Result-oriented<br />
+                      Thinking - Expressive<br />
+                      Energetic<br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <span
+              >Here you can read a short decomposed version of my curriculum vitae. You can also download the Dutch version of it by clicking on <a href="assets/download/CV.pdf" download>this</a></span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Contact information</h4>
+                <p>
+                  &raquo; xeo.gillis@telenet.be <br />
+                  &raquo; +32472096912 <br />
+                  &raquo; Baron Vander Bruggenlaan 15, 8750 Wingene <br />
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Education</h4>
+                <p>
+                  &raquo; ASO Wetenschappen (2014 - 2019) <br />
+                  &raquo; Master of Science Industrial Engineer (2019 - 2020) <br />
+                  &raquo; Bachelor Applied Informatics (2020)
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Employment</h4>
+                <p>
+                  &raquo; Orderpicker (TransWest, 8020 Oostkamp) <br />
+                  &raquo;  Volunteer (Majorhall Wingene, 8750 Wingene)
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Languages</h4>
+                <p>
+                  &raquo; Dutch (native) <br />
+                  &raquo; English (fluently) <br />
+                  &raquo; French (basics) <br />
+                  &raquo; German (notes)
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Qualities</h4>
+                <p>
+                  &raquo; Immune to stress <br />
+                  &raquo; Perserving <br />
+                  &raquo; Social <br />
+                  &raquo; ... <br />
+                  &#10238; See "About me"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Projects</h4>
+                <p>
+                  &raquo; Software Development Project I &amp; II <br />
+                  &raquo; Front-end Web Development <br />
+                  &raquo; Web Services <br />
+                  &raquo; Research Methods &amp; IT2Business<br />
+                  &#10238; See "My Work"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Skills</h4>
+                <p>
+                  &raquo; HTML <br />
+                  &raquo; CSS, SCSS, Bootstrap <br />
+                  &raquo; MySQL, NoSQL, SSMS <br />
+                  &raquo; JavaScript, Node.js, React <br />
+                  &raquo; Java, JavaFX, Python, Spring
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Design Patterns</h4>
+                <p>
+                  &raquo; (Abstract/Simple) Factory, Adapter <br />
+                  &raquo; Builder, Command, Decorator <br />
+                  &raquo; Facade, Iterator &amp; Compositie <br />
+                  &raquo; MVC, Protextion/Remote/Virtual Proxy <br />
+                  &raquo; State, Template Method
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Here you can see all the projects I have done the past years. The projects that are publicly available will have a link added to the repository where you can find the code.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="people"
+                    name="isotope-filter"
+                  />
+                  <span>first year</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="nature"
+                    name="isotope-filter"
+                  />
+                  <span>second year</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="animals"
+                    name="isotope-filter"
+                  />
+                  <span>spare time</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-01.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <h4>Software Development I</h4>
+                      <span>Remake Rummikub <br />
+                        <sub>Java</sub></span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-02.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <h4>Front-end Web Development &amp; Web Services</h4>
+                      <span>
+                        <sup>React, Node.js &amp; Bootstrap</sup>
+                      </span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-03.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <h4>Software Development Project II</h4>
+                      <span>Website for Fluvius <br /><sup>React, SCSS, Node.js, Java &amp; JavaFX</sup></span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <h4>IT2Business</h4>
+                      <span>Official Quotation</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <h4>Research Methods</h4>
+                      <span>Paper <br /> Subqueries, Aggregate Functions, JOINs &amp; LaTeX</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="https://github.com/XeoGillis" target="_blank"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Spare Time</h4>
+                      <span>Websites <br /> <sup>HTML, SCSS, CSS, Bootstrap, JavaScript, Node.js &amp; React</sup></span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
   </body>
 </html>
